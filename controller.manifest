@@ -1,0 +1,53 @@
+CACHE MANIFEST
+# 2010-06-18:v2
+
+# Explicitly cached 'master entries'.
+CACHE:
+index.html
+index-2.html
+css/
+icon.png
+handler.html
+style.css
+images/logo.png
+js/
+photos/
+plugins/
+scripts/
+styles/
+img/
+images/
+http://rogha2015.envisiongh.net/config.php
+
+# Resources that require the user to be online.
+NETWORK:
+http://rogha2015.envisiongh.net/home.php
+http://rogha2015.envisiongh.net/home.php#!/trending.php
+http://rogha2015.envisiongh.net/home.php#!/photos.php
+http://rogha2015.envisiongh.net/home.php#!/news.php
+http://rogha2015.envisiongh.net/home.php#!/contact.php
+http://rogha2015.envisiongh.net/trending.php
+http://rogha2015.envisiongh.net/photos.php
+http://rogha2015.envisiongh.net/news.php
+http://rogha2015.envisiongh.net/contact.php
+http://rogha2015.envisiongh.net/config.php
+
+
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+FALLBACK:
+http://rogha2015.envisiongh.net/home.php /404.html
+http://rogha2015.envisiongh.net/home.php /404.html
+http://rogha2015.envisiongh.net/home.php /404.html
+http://rogha2015.envisiongh.net/home.php#!/trending.php /404.html
+http://rogha2015.envisiongh.net/home.php#!/photos.php /404.html
+http://rogha2015.envisiongh.net/home.php#!/news.php /404.html
+http://rogha2015.envisiongh.net/home.php#!/contact.php /404.html
+http://rogha2015.envisiongh.net/trending.php /404.html
+http://rogha2015.envisiongh.net/photos.php /404.html
+http://rogha2015.envisiongh.net/news.php /404.html
+http://rogha2015.envisiongh.net/contact.php /404.html
+http://rogha2015.envisiongh.net/config.php /404.html
+

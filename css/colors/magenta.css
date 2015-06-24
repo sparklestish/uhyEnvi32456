@@ -1,0 +1,95 @@
+/*===============================================*/
+/* MAIN COLOR */
+/*===============================================*/	
+a, blockquote span {
+color: #833545;
+}
+a.button_full, a.button_small, .call_button a{
+background-color:#833545; 
+}
+.button {
+border: 1px solid #833545;
+color: #833545;
+}
+.button.active {
+background: #833545;
+}
+#pages_maincontent h3{
+color:#833545;
+}
+.photo-categories a.active{
+background-color:#833545;
+}
+.post_date{  
+color:#833545;
+}
+.list-block .swipeout-actions-left a,
+.list-block .swipeout-actions-right a {
+background: #833545;
+}
+.contactform input.form_submit, .loginform input.form_submit, .commentform input.form_submit{ 
+background-color:#833545;
+}
+/*===============================================*/
+/* HOME BG AND PAGES HEADER BG */
+/*===============================================*/	
+.homepage{
+background: url(../../images/colors/magenta/bg.jpg) no-repeat center center;
+background-attachment:fixed;
+-webkit-background-size: 100%; 
+-moz-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; 
+background-size: cover;
+}
+.navbarpages{
+background:url(../../images/colors/magenta/header.jpg) repeat center center;
+}
+/*===============================================*/
+/* MAIN NAV LINKS */
+/*===============================================*/	
+.main-nav ul li{
+background: rgba(126, 66, 7, 0.86) none repeat scroll 0% 0%;
+border-bottom:1px solid rgba(12, 12, 12, 0.59);
+border-radius: 12px;
+}
+.main-nav ul li a{
+color:#ffffff;
+}
+/*===============================================*/
+/* POPUPS AND TOOLBAR */
+/*===============================================*/	
+.popup{
+background: rgba(255, 234, 0, 0.64) none repeat scroll 0% 0%;
+}
+
+.socialpopup{
+background: #263239;
+}
+.popup-login, .popup-signup, .popup-forgot{
+background-color:#263239;
+}
+.toolbar:before {
+  background-color: rgba(2, 2, 2, 0.34);
+}
+/*===============================================*/
+/* LEFT AND RIGHT SLIDE PANEL */
+/*===============================================*/	
+.panel {
+background: rgba(165, 36, 36, 0.95) none repeat scroll 0% 0%;
+}
+.user-nav ul li, ul.popular_posts li{
+border-bottom:1px #9b4d5b solid;
+}
+/* MENU OPENER ICON */
+ul.toolbar_icons li.menuicon{
+background-color:#9FAC00;
+}
+
+/* PANEL CLOSE BUTTON */
+.close_popup_button a{
+background-color:#392F2E;
+}
