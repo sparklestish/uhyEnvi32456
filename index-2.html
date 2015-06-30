@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="controller.manifest">
+<html manifest="controller.appcache">
 
 <head>
 <meta charset="utf-8">
@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="css/colors/magenta.css">
 <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
 <link type="text/css" rel="stylesheet" href="css/animations.css" />
-<link href='../../fonts.googleapis.com/cssccf9.css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/cssccf9.css?family=Source+Sans+Pro:400,300,700,900' rel='stylesheet' type='text/css'>
 <!-- Photos Page css -->
 <link type="text/css" rel="stylesheet" href="css/form.css">
         <link type="text/css" rel="stylesheet" href="css/example.css">
@@ -22,7 +22,14 @@
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 <body id="mobile_wrap">
-
+<div id="preloader">
+  <div id="status">
+      <p class="center-text">
+      App is Loading the content...
+            <em>Loading depends on your connection speed!</em>
+        </p>
+    </div>
+</div>
     <div class="statusbar-overlay"></div>
 
     <div class="panel-overlay"></div>
